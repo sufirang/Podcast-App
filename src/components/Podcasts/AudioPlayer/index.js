@@ -19,6 +19,7 @@ function AudioPlayer({ audioSrc, image }) {
   const togglePlay = () => {
     if (isPlaying) {
       setIsPlaying(false);
+      
     } else {
       setIsPlaying(true);
     }

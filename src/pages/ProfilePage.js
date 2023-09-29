@@ -24,6 +24,7 @@ function ProfilePage() {
         toast.success("User Logged Out!");
       })
       .catch((error) => {
+        //An error happened 
         toast.error(error.message);
       });
   };

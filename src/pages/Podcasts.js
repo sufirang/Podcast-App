@@ -23,7 +23,7 @@ function PodcastsPage() {
         });
         dispatch(setPodcasts(podcastsData));
       },
-      (error) => {
+       (error) => {
         console.error("Error fetching podcasts:", error);
       }
     );
